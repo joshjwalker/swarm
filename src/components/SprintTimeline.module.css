@@ -197,3 +197,139 @@
   font-size: 13px;
   color: var(--accent-cyan);
 }
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .section {
+    padding: 40px 24px 60px;
+  }
+
+  .heading {
+    font-size: 28px;
+  }
+
+  .card {
+    padding: 32px 20px 28px;
+  }
+
+  .iconRow {
+    flex-wrap: wrap;
+    gap: 12px 8px;
+  }
+
+  .iconBox {
+    width: 60px;
+    flex-shrink: 1;
+  }
+
+  .iconSquare {
+    width: 36px;
+    height: 36px;
+  }
+
+  .swarmCard {
+    padding: 32px 20px 28px;
+  }
+
+  .roleRow {
+    gap: 16px;
+  }
+
+  .roleIcon {
+    width: 42px;
+    height: 42px;
+  }
+
+  .roleIconAi {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 32px 16px 48px;
+  }
+
+  .heading {
+    font-size: 24px;
+    margin-bottom: 28px;
+  }
+
+  .card {
+    padding: 24px 16px 24px;
+    border-radius: 12px;
+  }
+
+  .iconRow {
+    gap: 10px 6px;
+  }
+
+  .iconBox {
+    width: 52px;
+  }
+
+  .iconSquare {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+  }
+
+  .iconLabel {
+    font-size: 7px;
+  }
+
+  .duration {
+    font-size: 18px;
+  }
+
+  .durationSub {
+    font-size: 11px;
+  }
+
+  .tagline {
+    padding: 6px 14px;
+    font-size: 11px;
+  }
+
+  .swarmCard {
+    padding: 24px 16px 24px;
+    border-radius: 12px;
+  }
+
+  .roleRow {
+    gap: 12px;
+  }
+
+  .roleIcon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .roleIconAi {
+    width: 44px;
+    height: 44px;
+  }
+
+  .roleLabel {
+    font-size: 10px;
+  }
+
+  .arrow {
+    font-size: 14px;
+  }
+
+  .shipBadge {
+    padding: 6px 16px;
+    font-size: 12px;
+  }
+
+  .swarmDuration {
+    font-size: 18px;
+  }
+
+  .swarmTagline {
+    padding: 6px 14px;
+    font-size: 11px;
+  }
+}

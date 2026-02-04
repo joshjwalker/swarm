@@ -106,13 +106,35 @@
 .duration4 { color: #00e5c8; }
 
 @media (max-width: 900px) {
+  .section {
+    padding: 60px 24px;
+  }
+
+  .heading {
+    font-size: 28px;
+    margin-bottom: 36px;
+  }
+
   .grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
   }
 }
 
 @media (max-width: 560px) {
+  .section {
+    padding: 48px 16px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 20px 16px;
   }
 }

@@ -3,7 +3,7 @@ import * as styles from "./Illustration.module.css"
 
 const Illustration = () => (
   <section className={styles.section}>
-    <svg width="300" height="160" viewBox="0 0 300 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className={styles.svg} viewBox="0 0 300 160" fill="none" xmlns="http://www.w3.org/2000/svg">
       {/* Connection lines */}
       <line x1="75" y1="65" x2="130" y2="75" stroke="#00e5c8" strokeWidth="1.5" opacity="0.3" />
       <line x1="170" y1="75" x2="225" y2="65" stroke="#00e5c8" strokeWidth="1.5" opacity="0.3" />

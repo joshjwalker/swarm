@@ -17,3 +17,17 @@
   color: var(--text-secondary);
   line-height: 1.8;
 }
+
+@media (max-width: 600px) {
+  .section {
+    padding: 60px 16px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+}

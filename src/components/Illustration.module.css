@@ -4,6 +4,12 @@
   justify-content: center;
 }
 
+.svg {
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+}
+
 .illustration {
   position: relative;
   width: 280px;
@@ -92,4 +98,10 @@
   height: 8px;
   border-radius: 50%;
   background: var(--accent-cyan);
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 24px 16px 40px;
+  }
 }
