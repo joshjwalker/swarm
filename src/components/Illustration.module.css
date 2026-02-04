@@ -1,0 +1,95 @@
+.section {
+  padding: 40px 48px 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.illustration {
+  position: relative;
+  width: 280px;
+  height: 140px;
+}
+
+.node {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid var(--accent-cyan);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nodeCenter {
+  composes: node;
+  width: 64px;
+  height: 64px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 229, 200, 0.15);
+  box-shadow: 0 0 30px rgba(0, 229, 200, 0.2);
+}
+
+.nodeLeft {
+  composes: node;
+  left: 20%;
+  top: 30%;
+  background: rgba(0, 229, 200, 0.08);
+}
+
+.nodeRight {
+  composes: node;
+  right: 20%;
+  top: 30%;
+  background: rgba(0, 229, 200, 0.08);
+}
+
+.nodeBottomLeft {
+  composes: node;
+  left: 30%;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 229, 200, 0.06);
+}
+
+.nodeBottomRight {
+  composes: node;
+  right: 30%;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 229, 200, 0.06);
+}
+
+.line {
+  position: absolute;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent-cyan), transparent);
+  opacity: 0.3;
+}
+
+.line1 {
+  composes: line;
+  width: 60px;
+  top: 52%;
+  left: 28%;
+  transform: rotate(-10deg);
+}
+
+.line2 {
+  composes: line;
+  width: 60px;
+  top: 52%;
+  right: 28%;
+  transform: rotate(10deg);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent-cyan);
+}
